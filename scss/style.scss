@@ -1,0 +1,26 @@
+body {
+    background: grey;
+    .header {
+        background: aqua;
+        .navbar {
+            background: blue;
+            .navbarul {
+                display: flex;
+                justify-content: center;
+
+                li {
+                    margin-left: 20px;;
+                    font-size: 20px;
+                    color: red;
+                    list-style: none;
+                    &:hover {
+                        font-size: 50px;
+                    }
+                    &:last-child {
+                        color: white;
+                    }
+                }
+            }
+        }
+        }
+    }
